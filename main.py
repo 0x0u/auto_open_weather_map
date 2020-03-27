@@ -122,7 +122,6 @@ def get_weather_data(name, pre_id):
     }
     r = requests.get(url, params=query)
     data = r.json()
-    print(data)
     weather = icons[data["weather"][0]["id"]]
     description = data["weather"][0]["description"]
     humidity = data["main"]["humidity"]
