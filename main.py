@@ -139,7 +139,7 @@ if __name__ == "__main__":
         ## Auto Open Weather Map
         update: {}
         
-        |prefectures|weather|description|humidity(%)|temp_max(℃)|temp_min(℃)|
+        |prefectures|weather|description|humidity(%)|max_temp(℃)|min_temp(℃)|
         |:-----------:|:------------:|:------------:|:-----------:|:------------:|:-----------:|
     """).format(today).strip() + "\n"
 
