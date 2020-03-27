@@ -133,7 +133,7 @@ if __name__ == "__main__":
     jst = timezone(timedelta(hours=+9), "JST")
     today = datetime.now(jst).strftime("%Y-%m-%d")
 
-    md = "## Auto Open Weather Map  ![workflow](https://github.com/0x0u/auto_open_weather_map/workflows/workflow/badge.svg?branch=master)\nupdate: {}\n\n|prefectures|weather|description|humidity(%)|temp_max(℃)|temp_min(℃)|\n|:-----------:|:------------:|:------------:|:-----------:|:------------:|:-----------:|\n".format(today)
+    md = "![workflow](https://github.com/0x0u/auto_open_weather_map/workflows/workflow/badge.svg?branch=master)\n## Auto Open Weather Map\nupdate: {}\n\n|prefectures|weather|description|humidity(%)|temp_max(℃)|temp_min(℃)|\n|:-----------:|:------------:|:------------:|:-----------:|:------------:|:-----------:|\n".format(today)
 
     for i in pre_ids:
         data = get_weather_data(i, pre_ids[i])
