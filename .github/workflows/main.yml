@@ -2,7 +2,7 @@ name: workflow
 
 on: 
   schedule:
-    - cron:  "25 10 * * *"
+    - cron:  "0 15 * * *"
 
 jobs:  
   build:
@@ -15,6 +15,8 @@ jobs:
     
     - name: run main.py
       run: python3 main.py
+      env:
+        APPID: ${{ secrets.APPID }}
       
     - name: set git options
       run : |
