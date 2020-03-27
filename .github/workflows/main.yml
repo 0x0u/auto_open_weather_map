@@ -22,7 +22,7 @@ jobs:
       run : |
         git config user.name "m0zu"
         git config user.email "m0zurillex@gmail.com"
-        git remote set-url origin https://0x0u:${{ secrets.GITHUB_PASS }}@github.com/0x0u/test_ghaction
+        git remote set-url origin https://0x0u:${{ secrets.GITHUB_PASS }}@github.com/0x0u/auto_open_weather_map
     
     - name: run opt_git.py
       run: python3 opt_git.py
