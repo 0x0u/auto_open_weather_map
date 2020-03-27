@@ -2,7 +2,7 @@ name: workflow
 
 on: 
   schedule:
-    - cron:  "00 15 * * *"
+    - cron:  "25 10 * * *"
 
 jobs:  
   build:
@@ -10,18 +10,17 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       
-    - name: install requirements.txt
+    - name: install requirements.txt 
       run: pip3 install -r requirements.txt
     
-    - name: set gitconfig, run main.py, git push
+    - name: run main.py
+      run: python3 main.py
+      
+    - name: set git options
       run : |
         git config user.name "m0zu"
         git config user.email "m0zurillex@gmail.com"
-        git remote set-url origin https://0x0u:${{ secrets.GITHUB_PASS }}@github.com/0x0u/auto_open_weather_map
-        python3 main.py
-        git add README.md
-        git commit -m "update"
-        git push origin master
-      env:
-        APPID: ${{ secrets.APPID }}
-
+        git remote set-url origin https://0x0u:${{ secrets.GITHUB_PASS }}@github.com/0x0u/test_ghaction
+    
+    - name: run opt_git.py
+      run: python3 opt_git.py
