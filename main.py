@@ -135,12 +135,12 @@ if __name__ == "__main__":
     today = datetime.now(jst).strftime("%Y-%m-%d")
 
     md = textwrap.dedent("""
-        ![workflow](https://github.com/0x0u/auto_open_weather_map/workflows/workflow/badge.svg?branch=master)
-        ## Auto Open Weather Map
-        update: {}
+    ![Scheduler](https://github.com/0x0u/auto_open_weather_map/workflows/Scheduler/badge.svg)
+    ## Auto Open Weather Map
+    update: {}
         
-        |prefectures|weather|description|humidity(%)|max_temp(℃)|min_temp(℃)|
-        |:-----------:|:------------:|:------------:|:-----------:|:------------:|:-----------:|
+    |prefectures|weather|description|humidity(%)|max_temp(℃)|min_temp(℃)|
+    |:-----------:|:------------:|:------------:|:-----------:|:------------:|:-----------:|
     """).format(today).strip() + "\n"
 
     for i in pre_ids:
