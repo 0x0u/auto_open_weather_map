@@ -1,53 +1,53 @@
 ![Scheduler](https://github.com/0x0u/auto_open_weather_map/workflows/Scheduler/badge.svg)
 ## Auto Open Weather Map
-update: 2020-03-29
+update: 2020-03-30
 
 |prefectures|weather|description|humidity(%)|max_temp(℃)|min_temp(℃)|
 |:-----------:|:------------:|:------------:|:-----------:|:------------:|:-----------:|
-|北海道|☁️|broken clouds|88|1.11|0|
-|青森県|☁️|broken clouds|48|4|3.33|
-|岩手県|❄️|light snow|79|-1.64|-1.64|
-|宮城県|☁️|overcast clouds|73|3.88|3.88|
-|秋田県|❄️|light snow|70|4.31|4.31|
-|山形県|❄️|light snow|79|3.89|2.78|
-|福島県|🌦|light rain|79|6.11|1.67|
-|茨城県|🌦|moderate rain|87|10.56|7.78|
-|栃木県|🌧|shower rain|87|10.56|5.56|
-|群馬県|🌦|moderate rain|91|5.56|0|
-|埼玉県|🌧|light intensity shower rain|93|9|6.67|
-|千葉県|🌧|light intensity shower rain|93|9|7|
-|東京都|🌧|shower rain|93|9|6.67|
-|神奈川県|🌦|light rain|100|9.44|6.67|
-|新潟県|☁️|overcast clouds|56|6|1.67|
-|富山県|🌦|moderate rain|90|6.11|5|
-|石川県|🌧|light intensity drizzle|93|20|19|
-|福井県|🌦|light rain|93|5|5|
-|山梨県|🌦|heavy intensity rain|100|9.44|6.67|
-|長野県|❄️|snow|100|1.67|0|
-|岐阜県|🌦|moderate rain|71|4.26|4.26|
-|静岡県|🌧|heavy intensity shower rain|93|14.44|5.56|
-|愛知県|🌦|light rain|81|11|9.44|
-|三重県|🌦|moderate rain|87|10|10|
-|滋賀県|🌦|light rain|94|10.56|3.89|
-|京都府|🌦|light rain|88|10.56|3.89|
-|大阪府|🌦|moderate rain|90|7.22|0.56|
-|兵庫県|🌦|light rain|97|7.22|3.89|
-|奈良県|🌦|light rain|87|10.56|7.78|
-|和歌山県|🌦|light rain|87|9.44|7.22|
-|鳥取県|☁️|broken clouds|81|8|8|
-|島根県|🌦|light rain|84|7.04|7.04|
-|岡山県|🌦|light rain|97|7.22|7.22|
-|広島県|🌦|light rain|87|9.44|8.89|
-|山口県|☁️|broken clouds|81|10.56|10|
-|徳島県|🌧|light intensity shower rain|87|9.44|7.22|
-|香川県|🌧|light intensity shower rain|87|9|7.22|
-|愛媛県|🌦|moderate rain|85|9.44|9.44|
-|高知県|🌦|moderate rain|77|11.08|11.08|
-|福岡県|☁️|overcast clouds|87|10.56|8.89|
-|佐賀県|🌦|light rain|87|10.56|9.44|
-|長崎県|🌦|light rain|87|10.56|10|
-|熊本県|🌦|light rain|87|10|10|
-|大分県|🌦|moderate rain|87|9.7|9.7|
-|宮崎県|🌦|moderate rain|100|11.67|11.67|
-|鹿児島県|🌦|moderate rain|100|11.67|11.67|
-|沖縄県|🌧|light intensity drizzle|93|20|19|
+|北海道|☀️|clear sky|86|-1.67|-3|
+|青森県|🌤|few clouds|80|-0.56|-1|
+|岩手県|☀️|clear sky|82|-3.02|-3.02|
+|宮城県|☀️|clear sky|87|1.2|1.2|
+|秋田県|☀️|clear sky|72|3.82|3.82|
+|山形県|⛅️|scattered clouds|93|0|-1.11|
+|福島県|☁️|broken clouds|93|0.56|-3.33|
+|茨城県|☁️|overcast clouds|66|9|1.11|
+|栃木県|☁️|broken clouds|80|7.22|2.78|
+|群馬県|☁️|overcast clouds|97|2.78|-1.11|
+|埼玉県|☁️|broken clouds|81|6|2.78|
+|千葉県|☁️|broken clouds|86|6.11|2.78|
+|東京都|🌦|moderate rain|81|6.11|2.78|
+|神奈川県|☁️|broken clouds|81|7.22|2.22|
+|新潟県|🌤|few clouds|72|2.78|0|
+|富山県|☁️|overcast clouds|89|5|2.22|
+|石川県|☁️|overcast clouds|82|20|16.67|
+|福井県|⛅️|scattered clouds|75|5|5|
+|山梨県|☁️|overcast clouds|93|6.67|2.78|
+|長野県|☁️|broken clouds|100|2.78|-1.11|
+|岐阜県|☁️|overcast clouds|65|2.3|2.3|
+|静岡県|☁️|broken clouds|87|10|6.67|
+|愛知県|☁️|broken clouds|66|10|8.33|
+|三重県|☁️|overcast clouds|66|12.78|12.78|
+|滋賀県|☁️|overcast clouds|76|8.89|2.78|
+|京都府|☁️|overcast clouds|82|8.89|1.11|
+|大阪府|☁️|overcast clouds|97|5|1.11|
+|兵庫県|☁️|overcast clouds|97|7.78|1.11|
+|奈良県|☁️|overcast clouds|66|9|1.11|
+|和歌山県|☁️|overcast clouds|66|9|7.22|
+|鳥取県|☁️|broken clouds|57|9|9|
+|島根県|☁️|overcast clouds|70|4.8|4.8|
+|岡山県|☁️|overcast clouds|64|7.78|5.56|
+|広島県|☁️|overcast clouds|57|11|10|
+|山口県|☁️|broken clouds|66|11|10.56|
+|徳島県|☁️|broken clouds|61|9|7.22|
+|香川県|☁️|broken clouds|61|9|5.56|
+|愛媛県|☁️|overcast clouds|63|10.56|10.56|
+|高知県|☁️|overcast clouds|64|12.27|12.27|
+|福岡県|☁️|overcast clouds|66|11.67|10|
+|佐賀県|☁️|broken clouds|71|12.78|10.56|
+|長崎県|☁️|broken clouds|71|11.67|11|
+|熊本県|☁️|broken clouds|71|12.78|11|
+|大分県|☁️|overcast clouds|77|9.98|9.98|
+|宮崎県|☁️|overcast clouds|66|13.97|13.97|
+|鹿児島県|☁️|overcast clouds|76|14.03|14.03|
+|沖縄県|☁️|overcast clouds|82|20|16.67|
