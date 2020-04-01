@@ -135,7 +135,7 @@ if __name__ == "__main__":
     today = datetime.now(jst).strftime("%Y-%m-%d")
 
     md = textwrap.dedent("""
-    ![Scheduler](https://github.com/0x0u/auto_open_weather_map/workflows/Scheduler/badge.svg)
+    ![Scheduler](https://github.com/miya/auto_open_weather_map/workflows/Scheduler/badge.svg)
     ## Auto Open Weather Map
     update: {}
         
