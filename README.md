@@ -1,53 +1,53 @@
 ![Scheduler](https://github.com/miya/auto_open_weather_map/workflows/Scheduler/badge.svg)
 ## Auto Open Weather Map
-update: 2020-04-22
+update: 2020-04-23
 
 |prefectures|weather|description|humidity(%)|max_temp(℃)|min_temp(℃)|
 |:-----------:|:------------:|:------------:|:-----------:|:------------:|:-----------:|
-|北海道|☀️|clear sky|40|3.33|2.78|
-|青森県|🌦|light rain|90|5|5|
-|岩手県|⛅️|scattered clouds|68|1.32|1.32|
-|宮城県|☁️|overcast clouds|75|7.42|7.42|
-|秋田県|🌦|light rain|77|8.58|8.58|
-|山形県|⛅️|scattered clouds|62|11.11|9.44|
-|福島県|☁️|overcast clouds|62|11.11|9.44|
-|茨城県|☁️|broken clouds|25|14.44|8.89|
-|栃木県|☁️|broken clouds|71|16.67|9.44|
-|群馬県|☁️|broken clouds|83|9.44|5.56|
-|埼玉県|⛅️|scattered clouds|25|15|14.44|
-|千葉県|☁️|broken clouds|63|16|14.44|
-|東京都|☁️|broken clouds|63|16.11|13.89|
-|神奈川県|☀️|clear sky|69|17.78|13.33|
-|新潟県|☁️|broken clouds|76|11.11|9.44|
-|富山県|☁️|overcast clouds|36|13.33|13.33|
-|石川県|🌧|light intensity drizzle|93|18|17|
-|福井県|☁️|broken clouds|54|12|12|
-|山梨県|⛅️|scattered clouds|99|9.44|9.44|
-|長野県|⛅️|scattered clouds|80|8.33|8.33|
-|岐阜県|☁️|broken clouds|67|4.98|4.98|
-|静岡県|🌤|few clouds|54|16.67|14.44|
-|愛知県|☁️|broken clouds|71|14|12.22|
-|三重県|☁️|overcast clouds|47|12.78|12.78|
-|滋賀県|☁️|broken clouds|89|11.11|10|
-|京都府|☁️|broken clouds|78|14.44|8.89|
-|大阪府|⛅️|scattered clouds|86|6.67|6.67|
-|兵庫県|☁️|overcast clouds|75|13.33|6.67|
-|奈良県|☁️|broken clouds|52|14.44|8.89|
-|和歌山県|☁️|broken clouds|51|15.56|13.89|
-|鳥取県|🌤|few clouds|44|14|14|
-|島根県|☁️|overcast clouds|54|6.91|6.91|
-|岡山県|☁️|broken clouds|55|13.33|10.56|
-|広島県|☁️|broken clouds|47|14|11.11|
-|山口県|☁️|overcast clouds|48|14|14|
-|徳島県|☁️|broken clouds|36|17|16|
-|香川県|☁️|overcast clouds|59|13.33|13.33|
-|愛媛県|☁️|overcast clouds|50|7.55|7.55|
-|高知県|☁️|overcast clouds|49|11.93|11.93|
-|福岡県|☁️|overcast clouds|37|13.33|12.22|
-|佐賀県|☁️|overcast clouds|50|12.78|12|
-|長崎県|☁️|overcast clouds|50|12|12|
-|熊本県|☁️|overcast clouds|47|12.78|12.78|
-|大分県|☁️|overcast clouds|52|10.49|10.49|
-|宮崎県|☁️|overcast clouds|46|11.67|11.67|
-|鹿児島県|☁️|overcast clouds|46|11.67|11.67|
-|沖縄県|🌧|light intensity drizzle|93|18|17|
+|北海道|❄️|light snow|40|4.44|3.33|
+|青森県|❄️|light snow|56|6.67|6.67|
+|岩手県|❄️|light snow|77|-1.01|-1.01|
+|宮城県|🌤|few clouds|76|4.2|4.2|
+|秋田県|🌦|light rain|68|5.97|5.97|
+|山形県|🌦|light rain|77|3.17|3.17|
+|福島県|⛅️|scattered clouds|74|3.33|3.33|
+|茨城県|☁️|broken clouds|21|10.56|5|
+|栃木県|☁️|broken clouds|57|11.11|5|
+|群馬県|☀️|clear sky|63|5|0|
+|埼玉県|🌦|light rain|16|11.11|10|
+|千葉県|🌦|light rain|87|11.11|7.78|
+|東京都|🌦|light rain|76|11.11|8.89|
+|神奈川県|☁️|overcast clouds|49|11.67|9|
+|新潟県|☁️|broken clouds|86|5|4.44|
+|富山県|🌦|light rain|91|6.11|5|
+|石川県|☁️|overcast clouds|77|18|16|
+|福井県|☁️|broken clouds|93|6|6|
+|山梨県|🌦|light rain|61|8|7.78|
+|長野県|🌤|few clouds|82|3.33|1.11|
+|岐阜県|⛅️|scattered clouds|65|7|7|
+|静岡県|☁️|broken clouds|53|10|10|
+|愛知県|🌤|few clouds|61|9|7|
+|三重県|⛅️|scattered clouds|46|10|10|
+|滋賀県|🌦|light rain|73|7.22|7.22|
+|京都府|☁️|broken clouds|71|10.56|5|
+|大阪府|⛅️|scattered clouds|79|1.67|1.67|
+|兵庫県|☁️|broken clouds|69|8.33|2.22|
+|奈良県|🌦|light rain|21|10.56|5|
+|和歌山県|⛅️|scattered clouds|53|11|10|
+|鳥取県|🌧|light intensity shower rain|87|7|7|
+|島根県|🌦|light rain|72|6.36|6.36|
+|岡山県|🌦|light rain|76|8.33|6.67|
+|広島県|🌧|shower rain|40|12|9.44|
+|山口県|🌧|light intensity shower rain|50|11.67|11|
+|徳島県|☁️|broken clouds|63|11|11|
+|香川県|☁️|broken clouds|60|10.56|10.56|
+|愛媛県|☁️|broken clouds|61|5.28|5.28|
+|高知県|⛅️|scattered clouds|55|9.79|9.79|
+|福岡県|⛅️|scattered clouds|40|11|10|
+|佐賀県|⛅️|scattered clouds|52|11|10|
+|長崎県|☁️|broken clouds|60|11|11|
+|熊本県|⛅️|scattered clouds|46|10|10|
+|大分県|⛅️|scattered clouds|59|7.41|7.41|
+|宮崎県|☁️|broken clouds|56|8.89|8.89|
+|鹿児島県|⛅️|scattered clouds|63|8.89|8.89|
+|沖縄県|☁️|overcast clouds|77|18|16|
